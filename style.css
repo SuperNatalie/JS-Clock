@@ -4,6 +4,8 @@ html, body {
 }
 
 .front {
+    margin-top: 50px;
+    margin-left: 20px;
     width: 600px;
     height: 360px;
     border: 8px solid rgb(226, 225, 225);
@@ -13,7 +15,26 @@ html, body {
     display: grid;
     grid-template-columns: 20px 1fr 1fr 1fr 1fr;
     grid-template-rows: 30px 50px 30px 100px 150px;
-   
+}
+
+#top {
+    grid-row: 1/2;
+    margin-top: -37px;
+    margin-left: 20px;
+    background-color: rgb(32, 32, 39);
+    width:550px;
+    height: 30px;
+    border: 2px solid rgb(226, 225, 225);
+    border-radius: 5px;
+}
+
+#label {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 210px;
+    left: 90px;
+    font-size: 1.1em;
 }
 
 #hour, #minutes, #seconds {
