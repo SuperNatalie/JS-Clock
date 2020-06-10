@@ -51,6 +51,8 @@ var monate = [
         if (minutes.innerHTML <10) {
             minutes.innerHTML = "0" + clock.getMinutes();
         }
+       
+
     }
     
 
